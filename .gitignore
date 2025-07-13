@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment files
+.env
+
+# Model checkpoints
+*.pth
+*.pt
+
+# Local testing files
+test.py
+local_testing/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Render build cache (if created)
+build/
+staticfiles/
+
+# Python logs
+*.log
+
+# VS Code settings (optional)
+.vscode/
+
+# Flask instance folder
+instance/
